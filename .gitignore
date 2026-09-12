@@ -1,3 +1,125 @@
+# ============================================================
+# Python
+# ============================================================
+
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+hf-llm/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+
+# ============================================================
+# Jupyter Notebook
+# ============================================================
+
+.ipynb_checkpoints/
+
+# Jupyter temporary files
+*.nbconvert.ipynb
+
+
+# ============================================================
+# Hugging Face / ML model caches
+# ============================================================
+
+# Hugging Face cache
+.cache/
+huggingface/
+.huggingface/
+
+# Common local model directories
+models/
+model/
+checkpoints/
+
+# Large ML artifacts
+*.safetensors
+*.bin
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.gguf
+
+
+# ============================================================
+# Machine Learning outputs
+# ============================================================
+
+runs/
+wandb/
+mlruns/
+tensorboard/
+logs/
+
+# Training outputs
+outputs/
+results/
+
+
+# ============================================================
+# Environment / secrets
+# ============================================================
+
+.env
+.env.*
+!.env.example
+
+# Hugging Face token / credentials
+*.token
+
+
+# ============================================================
+# OS files
+# ============================================================
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# macOS
+.DS_Store
+
+
+# ============================================================
+# IDE
+# ============================================================
+
+.vscode/
+.idea/
+
+# Eclipse
+.classpath
+.project
+.settings/
+
+
+# ============================================================
+# Python tooling
+# ============================================================
+
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# ============================================================
+# Data
+# ============================================================
+
 data/
 *.csv
 *.zip
